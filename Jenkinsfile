@@ -1,4 +1,4 @@
-Pipeline
+pipeline
 {
 	agent any
 	stages
@@ -7,7 +7,7 @@ Pipeline
 		{
 			when
             {
-				changelog '*some_text*'
+				changelog '.*some_text.*'
 			}
 			steps
 			{
